@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3 {
+    font-family: Verdana;
+    font-size: 19px;
+}
+.container{
+    width: 100%;
+    padding: 21px;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.head h1 {
+    font: 20px Verdana; 
+    font-weight: bold;
+}
+section{
+    padding: 21px;
+}
+section h2 {
+    color: blue;
+}
+.box h2 {
+    margin: 10px 0px;
+}
+.box p{
+    font: 17px Verdana;
+    text-align: justify;
+}
+.btn{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.btn button.add {
+    width: 120px;
+    padding: 6px;
+    font-size: 16px;
+    background-color: purple;
+    color: white;
+    border:  none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn button.rem {
+    width: 120px;
+    padding: 6px;
+    font-size: 16px;
+    background-color: rgb(206, 7, 0);
+    color: white;
+    border:  none;
+    border-radius: 5px;
+    cursor: pointer;
+}
